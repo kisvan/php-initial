@@ -1,0 +1,81 @@
+.bg-timetable {
+  background-color: #02323a;
+  color: #ffffff;
+}
+
+.mu-notice-text-link {
+  color: #ffffff !important;
+  transition: 0.4s all;
+}
+
+.mu-notice-text {
+  color: #e47f21 !important;
+}
+
+.reset-link {
+  color: #e47f21 !important;
+  text-decoration: none;
+}
+
+.mu-notice-text-link:hover {
+  color: #e47f21 !important;
+}
+
+.mu-timetable-btn {
+  border: 1px solid #034852;
+  color: #034852;
+}
+
+.mu-timetable-btn:hover {
+  background-color: #034852;
+  color: white;
+}
+
+.section-about {
+  background-image: url("../img/isaka_contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mu-notice-text-success {
+  color: #e47f21 !important;
+}
+
+.mu-notice-btn {
+  border: 1px solid #e47f21;
+  color: #e47f21;
+}
+.mu-notice-btn:hover {
+  background-color: #e47f21;
+  color: #ffffff;
+}
+
+.vms-btn {
+  background: #043b3b;
+  color: whitesmoke;
+}
+
+.vms-btn:hover {
+  background: #043b3b;
+  color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* section of developer */
+#dev-desc {
+  margin-top: 8rem;
+}
+/* end of developer section */
+
+/* media */
+@media only screen and (max-width: 423px) {
+  .bg-on-about {
+    background-color: #034852;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+}
